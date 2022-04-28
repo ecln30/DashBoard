@@ -25,7 +25,7 @@ body {
   gap: 20px;
   justify-content: center;
   align-items: center;
-  padding: 240px 180px;
+  padding: 300px 180px;
 }
 
 .profile {
@@ -34,10 +34,11 @@ body {
   border-radius: 10px;
 }
 .profile .pic {
-  width: 50px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
   border: 2px solid white;
   border-radius: 50%;
+  margin-top: 20px;
 }
 .profile .card-top {
   height: 65%;
@@ -49,6 +50,7 @@ body {
 }
 .profile .card-top .report {
   margin-top: 40px;
+  color: rgb(197, 176, 176);
 }
 .profile .pro.bottom {
   height: 35%;
@@ -59,9 +61,8 @@ body {
 }
 
 .card {
-  width: 250px;
+  width: 280px;
   height: 250px;
-  border: 1px solid white;
   border-radius: 10px;
 }
 
@@ -71,6 +72,7 @@ body {
 
 .top {
   height: 20%;
+  z-index: 10;
 }
 
 .bottom {
@@ -83,7 +85,6 @@ body {
   overflow: hidden;
   border-radius: 10px;
   padding: 30px;
-  z-index: -3;
 }
 .bottom .active {
   display: flex;
@@ -133,4 +134,22 @@ body {
   border-radius: 10px 10px 0px 0px;
   display: flex;
   justify-content: flex-end;
+}
+
+.name {
+  font-size: 40px;
+  color: white;
+}
+
+h1 {
+  color: white;
+  font-size: 3rem;
+}
+
+h3 {
+  color: white;
+}
+
+p {
+  color: rgb(156, 188, 212);
 }/*# sourceMappingURL=main.css.map */
